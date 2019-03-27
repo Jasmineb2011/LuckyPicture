@@ -1,14 +1,14 @@
-body {
-text-align: center;
+body, input.placeholder {
+  text-align: center;
 }
 footer {
-position: absolute;
-right: 0;
-bottom: 0;
-left: 0;
-padding: 1rem;
-color : Black;
-font-size: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color : Black;
+  font-size: 20px;
 }
 input {
   border-radius: 25px;

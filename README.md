@@ -22,4 +22,4 @@ Enter [here](https://lotus-1.github.io/LuckyPicture/) to see our COOL  :stuck_ou
  it was very challenging to make the app
  and if we had more time we would work on more sites at once
 
- HOPE YOU LIKE IT ! :heart: 
+ HOPE YOU LIKE IT ! :heart:

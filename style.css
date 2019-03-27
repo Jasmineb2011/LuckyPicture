@@ -23,3 +23,8 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+footer, h1, h2 {
+  font-size: 30px;
+  color: #FFFF;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em green;
+}

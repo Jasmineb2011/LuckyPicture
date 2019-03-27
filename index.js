@@ -15,14 +15,13 @@ function downloadPic(event){
   fetch('https://picsum.photos/list')
     .then(function(response) {
       return response.json();
-    })
-     .then(function(data) {
-       var picId = document.getElementById('nPic').value;
-       window.open(data[picId].post_url, '_blank');
       })
-      .catch(function(error){
-        console.log(error);
+    .then(function(data) {
+      var picId = document.getElementById('nPic').value;
+      window.open(data[picId].post_url, '_blank');
+      })
+    .catch(function(error){
+      console.log(error);
       })
  }
-
  document.getElementById("download").addEventListener("click", downloadPic);

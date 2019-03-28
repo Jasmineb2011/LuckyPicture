@@ -10,7 +10,7 @@
 
 Enter [LuckyPicture](https://lotus-1.github.io/LuckyPicture/) to see our COOL :stuck_out_tongue_winking_eye: page properly.
 
- Making it happen step by stap :
+ Making it happen step by step :
 
  ![](/home/noor7188/Downloads/WhatsApp Image 2019-03-27 at 13.49.52.jpeg)
 

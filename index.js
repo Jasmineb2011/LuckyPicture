@@ -1,10 +1,10 @@
 function changeBackground() {
   var picIdNum = document.getElementById('picId').value;
-  document.body.style.backgroundImage = "url(https:picsum.photos/2000/1000?image="+picIdNum+")";
+  document.body.style.backgroundImage = "url(https://picsum.photos/2000/1000?image="+picIdNum+")";
 }
 function changeBlur() {
   var picIdNum = document.getElementById('picId').value;
-  document.body.style.backgroundImage = "url(https:picsum.photos/2000/1000?image="+picIdNum+"&blur)";
+  document.body.style.backgroundImage = "url(https://picsum.photos/2000/1000?image="+picIdNum+"&blur)";
 }
 function changeGray() {
   var picIdNum = document.getElementById('picId').value;

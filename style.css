@@ -13,6 +13,7 @@ div {
 body {
   background-color:	#BDB76B;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 body, input.placeholder {
   text-align: center;

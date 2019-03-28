@@ -1,5 +1,18 @@
+@media screen and (max-width: 600px) {
+body {
+  background-color: red;
+  }
+}
+@media screen and (max-width: 600px) {
+div {
+  font-size: 60px;
+  padding: 60px;
+  background: yellow;
+  }
+}
 body {
   background-color:	#BDB76B;
+  background-repeat: no-repeat;
 }
 body, input.placeholder {
   text-align: center;
@@ -15,6 +28,8 @@ footer {
 }
 input {
   border-radius: 25px;
+  width: 350px;
+  height: 32px;
 }
 button {
   border-radius: 25px;

@@ -1,14 +1,14 @@
 function changeBackground() {
-  var picId = document.getElementById('nPic').value;
-  document.body.style.backgroundImage = "url(https:picsum.photos/2000/1000?image="+picId+")";
+  var picIdNum = document.getElementById('picId').value;
+  document.body.style.backgroundImage = "url(https:picsum.photos/2000/1000?image="+picIdNum+")";
 }
 function changeBlur() {
-  var picId = document.getElementById('nPic').value;
-  document.body.style.backgroundImage = "url(https:picsum.photos/2000/1000?image="+picId+"&blur)";
+  var picIdNum = document.getElementById('picId').value;
+  document.body.style.backgroundImage = "url(https:picsum.photos/2000/1000?image="+picIdNum+"&blur)";
 }
 function changeGray() {
-  var picId = document.getElementById('nPic').value;
-  document.body.style.backgroundImage = "url(https://picsum.photos/g/2000/1000?image="+picId+")";
+  var picIdNum = document.getElementById('picId').value;
+  document.body.style.backgroundImage = "url(https://picsum.photos/g/2000/1000?image="+picIdNum+")";
 }
 function downloadPic(event){
   event.preventDefault();
@@ -17,8 +17,8 @@ function downloadPic(event){
       return response.json();
       })
     .then(function(data) {
-      var picId = document.getElementById('nPic').value;
-      window.open(data[picId].post_url, '_blank');
+      var picIdNum = document.getElementById('picId').value;
+      window.open(data[picIdNum].post_url, '_blank');
       })
     .catch(function(error){
       console.log(error);

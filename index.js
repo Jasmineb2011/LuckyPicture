@@ -1,7 +1,11 @@
 var span = document.getElementById("authorData");
 var link = document.createElement("a");
 span.appendChild(link);
+
 function changeBackground() {
+  if (document.getElementById('picId').value < 0 || document.getElementById('picId').value > 1084) {
+    alert ("Number is not in the right range! sorry :)");
+  } else {
   var picIdNum = document.getElementById('picId').value;
   document.body.style.backgroundImage = "url(https://picsum.photos/2000/1000?image="+picIdNum+")";
   link.href = "";
@@ -19,7 +23,7 @@ function changeBackground() {
         console.log(error);
         })
    }
-
+ }
 
 function changeBlur() {
   var picIdNum = document.getElementById('picId').value;
